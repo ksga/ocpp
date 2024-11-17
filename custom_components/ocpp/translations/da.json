@@ -54,11 +54,11 @@
             }
         },
         "error": {
-            "auth": "Username/Password is wrong.",
-            "measurand": "Unknown measurand"
+            "auth": "Forkert brugernavn/adgangskode.",
+            "measurand": "Ukendt måleenhed"
         },
         "abort": {
-            "single_instance_allowed": "Only a single instance is allowed."
+            "single_instance_allowed": "Kun én opsætning er tilladt."
         }
     }
 }
