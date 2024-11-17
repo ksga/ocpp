@@ -25,20 +25,20 @@
                 }
             },
             "measurands": {
-                "title": "OCPP Measurands",
-                "description": "Select which measurand(s) should be used in Home Assistant.",
+                "title": "OCPP måleparametre",
+                "description": "Vælg hvilke måleparametre der skal anvendes i Home Assistant.",
                 "data": {
-                    "Current.Export": "Current.Export: Instantaneous current flow from EV",
-                    "Current.Import": "Current.Import: Instantaneous current flow to EV",
-                    "Current.Offered": "Current.Offered: Maximum current offered to EV",
-                    "Energy.Active.Export.Register": "Energy.Active.Export.Register: Active energy exported to the grid",
-                    "Energy.Active.Import.Register": "Energy.Active.Import.Register: Active energy imported from the grid",
-                    "Energy.Reactive.Export.Register": "Energy.Reactive.Export.Register: Reactive energy exported to the grid",
-                    "Energy.Reactive.Import.Register": "Energy.Reactive.Import.Register: Reactive energy imported from the grid",
-                    "Energy.Active.Export.Interval": "Energy.Active.Export.Interval: Active energy exported to the grid during last interval",
-                    "Energy.Active.Import.Interval": "Energy.Active.Import.Interval: Active energy imported from the grid during last interval",
-                    "Energy.Reactive.Export.Interval": "Energy.Reactive.Export.Interval: Reactive energy exported to the grid during last interval",
-                    "Energy.Reactive.Import.Interval": "Energy.Reactive.Import.Interval: Reactive energy imported from the grid during last interval",
+                    "Current.Export": "Current.Export: Øjeblikkelig strømflow fra EV",
+                    "Current.Import": "Current.Import: Øjeblikkelig strømflow til EV",
+                    "Current.Offered": "Current.Offered: Maximal strømstyrke tilgængelig for EV",
+                    "Energy.Active.Export.Register": "Energy.Active.Export.Register: Aktiv energi eksporteret til nettet",
+                    "Energy.Active.Import.Register": "Energy.Active.Import.Register: Aktiv energi importeret fra nettet",
+                    "Energy.Reactive.Export.Register": "Energy.Reactive.Export.Register: Reaktiv energi eksporteret til nettet",
+                    "Energy.Reactive.Import.Register": "Energy.Reactive.Import.Register: Reaktiv energi importeret fra nettet",
+                    "Energy.Active.Export.Interval": "Energy.Active.Export.Interval: Aktiv energi eksporteret til nettet i løbet af det sidste interval",
+                    "Energy.Active.Import.Interval": "Energy.Active.Import.Interval: Aktiv energi importeret fra nettet i løbet af det sidste interval",
+                    "Energy.Reactive.Export.Interval": "Energy.Reactive.Export.Interval: Reaktiv energi eksporteret til nettet i løbet af det sidste interval",
+                    "Energy.Reactive.Import.Interval": "Energy.Reactive.Import.Interval: Reaktiv energi importeret fra nettet i løbet af det sidste interval",
                     "Frequency": "Frequency: Powerline frequency",
                     "Power.Active.Export": "Power.Active.Export: Instantaneous active power exported by EV",
                     "Power.Active.Import": "Power.Active.Import: Instantaneous active power imported by EV",
@@ -55,7 +55,7 @@
         },
         "error": {
             "auth": "Forkert brugernavn/adgangskode.",
-            "measurand": "Ukendt måleenhed"
+            "measurand": "Ukendt måleparameter."
         },
         "abort": {
             "single_instance_allowed": "Kun én opsætning er tilladt."
